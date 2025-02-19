@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -30,6 +29,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.28</version> <!-- Ensure the correct version is specified -->
             <scope>provided</scope>
         </dependency>
 
@@ -59,7 +59,6 @@
             <artifactId>guava</artifactId>
             <version>32.0.1-jre</version>  <!-- 🔥 Version mise à jour -->
         </dependency>
-
     </dependencies>
 
     <build>
@@ -74,6 +73,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
+                            <version>1.18.28</version> <!-- Ensure the correct version is specified -->
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
@@ -86,5 +86,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

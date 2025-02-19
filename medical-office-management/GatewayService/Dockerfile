@@ -5,10 +5,10 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copier le fichier JAR généré
-COPY target/ServicePraticien-0.0.1-SNAPSHOT.jar app.jar
+COPY target/gateway-service-0.0.1-SNAPSHOT.jar app.jar
 
 # Exposition du port
-EXPOSE 8082
+EXPOSE 8080
 
 # Commande de lancement
 CMD ["java", "-jar", "app.jar"]
